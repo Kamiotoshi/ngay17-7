@@ -1,0 +1,1 @@
+Đề thi mà làm thế này thì hơi bị không đủ thời gian với ý tưởng

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minh</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="Web.css">
+    
+</head>
+<body>
+    <header>
+       <div class="nav-top">
+        <nav>
+           <ul>
+                <li><a href="#">Skill and expertise</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contacts</a></li>
+           </ul>
+            <a href="#" class="logo">
+            <img src="Daco_1501104.png" alt="i am vengeance">
+            </a>
+        </nav>
+        </div> 
+        <h1>I am Batman</h1>   
+        <p>I'm a junior web developer with HTML,CSS,JS skills</p>
+    </header>
+    <main>
+        <p id="Info"><strong>Every thing about me</strong></p>
+        <button type="button" class="collapsible"><h3><strong>Skills and expertise</strong></h3></button>
+        <div id="1" class="content">
+            
+            Batman Beyond (known as Batman of the Future outside the United States) is an American superhero animated television series based on the DC Comics superhero Batman. Created and developed by Paul Dini, Bruce Timm, and Alan Burnett and produced by Warner Bros. Animation,[1] the series began airing on January 10, 1999 on Kids' WB, and ended on December 18, 2001. In the United Kingdom, it began airing on September 4, 2000.[2] After 52 episodes spanning three seasons and one direct-to-video feature film, the series was brought to an end in favor of the Justice League animated series, and plans for a fourth season were cancelled.[3] Depicting a teenaged Batman (Terry McGinnis) in a futuristic Gotham City under the tutelage of an elderly Bruce Wayne, Batman Beyond is chronologically the final series of the DC Animated Universe, and serves as the sequel to both Batman: The Animated Series and The New Batman Adventures.[4]
+        </div>  
+        <button type="button" class="collapsible"><h3><strong>Projects</strong></h3></button>
+        <div class="content">
+        
+        <div class="card mb-3">
+            <img src="Untitled.png" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+                <h5 class="card-title">Project 1</h5>
+                <p class="card-text">Terrence "Terry" McGinnis Wayne adopted the identity of Batman in the future following Bruce Wayne's retirement from the role. Like his predecessor and mentor, he fought crime and injustice in Gotham City and elsewhere for many years.</p>
+                <p class="card-text"><small class="text-body-secondary"><a href="../Exam/ngay13-6/web.html">Thông tin chi tiết</a></small></p>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Project 2</h5>
+                  <p class="card-text">During her encounters with the Justice League, Amanda Waller particularly developed an admiration for Batman and came to believe that someone like the Dark Knight would always be needed. While watching Batman age, Waller realized he wouldn't be around forever and the Dark Knight would either have to retire or be killed at some point. </p>
+                  <p class="card-text"><small class="text-body-secondary"><a href="../Exam/Genshin/genshin.html">Thông tin chi tiết</a></small></p>
+                </div>
+                <img src="Web capture_15-6-2023_103728_127.0.0.1.jpeg" class="card-img-bottom" alt="Project 2">
+              </div>
+            </div>
+        </div>
+        <button type="button" class="collapsible"><strong>Contacts</strong></button>
+        <div id="3" class="content">
+
+            <h3><strong>Nhập thông tin và yêu cầu của bạn cho chúng tôi</strong></h3>
+            <form>
+                <script src="web.js"></script>
+
+                <label for="Ten">Ten</label>
+                <input type="text" step="0.01" id="Ten" required>
+    
+                <label for="email">Email</label>
+                <input type="email" step="0.01" id="email" required>
+   
+                <label for="Tin">Tin nhắn</label>
+                <input type="text" step="0.01" id="Tin" required>
+
+                <input type="submit" class="no" value=" Gửi " onclick="bang()"/>
+                <div id="Thongbao"></div> 
+            </form>
+            
+            </div>
+
+    </main>
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }            
+          });
+         
+        }
+       
+        </script>
+   <footer>
+    <div class="container">
+        <p>@2023 Exam</p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et odio esse quos maxime exercitationem nostrum officiis quasi, in, quae at minus recusandae quia. Repellat ipsam cumque tempore id unde in optio illum a magnam nihil architecto quas laboriosam, explicabo accusantium totam deserunt distinctio ducimus! Ipsum corrupti officiis voluptatibus eum, distinctio pariatur ullam vitae perferendis quia harum voluptatem sequi. Suscipit minus voluptatem molestiae aut vero aspernatur, sed minima architecto perferendis dolorem!
+    </div>
+   </footer>
+   
+</body>
+</html>

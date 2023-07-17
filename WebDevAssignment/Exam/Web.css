@@ -1,0 +1,148 @@
+
+body{
+    background-image: url(190457.jpg);
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+header a{
+    color: #fff;
+    
+}
+li :hover{
+    color: red;
+}
+header{
+    background-color: gray;
+    padding: 20px;
+}
+.logo{
+    left: 50%;
+}
+header img{
+    /* opacity: 0.8; */
+    top: 1px;
+    position: absolute;
+    left: 45%;
+    margin-left: -11px;
+    width: 100px;
+   background-color: transparent;
+   /* background:; */
+}
+h1,header p{
+    text-align: center;
+}
+
+#Info {
+    text-align: center;
+}
+p{
+    font-size: 20px;
+}
+header li,ul{
+    display: inline-block;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+footer{
+    padding: 100px;
+    background-image: url(peakpx.jpg);
+   
+}
+.container{
+    color: #fff;
+}
+.card-img-top{
+    width: 50%;
+}
+.card-img-bottom{
+    width: 50%;
+}
+form{
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+input[type="text"], input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+input[type="button"], input[type="submit"]:hover{
+    background-color: #45a049;
+    
+
+}
+#Thongbao{
+    font-weight: bold;
+    margin-top: 10px;
+}
+.collapsible {
+    background-image: url(how-can-technology-design-be-made-more-inclusive.jpeg);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+/* Small screen - acts like the app would */
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: #584f4d;
+    }
+    #page {
+        max-width: 480px;
+    }
+}
+@media only screen and (min-width: 501px) and (max-width: 767px) {
+    #page {
+        max-width: 480px;
+        margin: 20px auto 20px auto;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    #page {
+        max-width: 480px;
+        margin: 20px auto 20px auto;
+    }
+}
+/* Larger screens act like a demo for the app */
+@media only screen and (min-width: 960px) {
+    #page {
+        max-width: 480px;
+        margin: 20px auto 20px auto;
+   	}
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+    h1{
+        background-image: url(../images/2xkinglogo.png);
+        background-size: 72px 72px;
+    }
+}
